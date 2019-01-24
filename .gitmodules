@@ -16,3 +16,6 @@
 [submodule "sdkjs-plugins"]
 	path = sdkjs-plugins
 	url = https://github.com/ONLYOFFICE/sdkjs-plugins.git
+[submodule "web-apps-pro"]
+	path = web-apps-pro
+	url = https://github.com/ONLYOFFICE/web-apps-pro.git

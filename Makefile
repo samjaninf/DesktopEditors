@@ -14,7 +14,7 @@ clean:
 	cd desktop-apps && $(MAKE) clean
 
 install:
-	cd desktop-apps && WEBAPPS_DIR=../web-apps/deploy $(MAKE) install
+	cd desktop-apps && $(MAKE) install
 
 uninstall:
 	cd desktop-apps && $(MAKE) uninstall
