@@ -4,13 +4,13 @@ all:
 	cd core/Common/3dParty/ && ./make.sh
 	cd core && $(MAKE) all desktop #ext
 
-	cd sdkjs && $(MAKE) desktop
+	cd sdkjs && WEBAPPS_DIR=web-apps-pro $(MAKE) desktop
 
 	cd desktop-apps && $(MAKE) all
 	
 clean:
 	cd core && $(MAKE) clean
-	cd sdkjs &&  $(MAKE) clean
+	cd sdkjs && $(MAKE) clean
 	cd desktop-apps && $(MAKE) clean
 
 install:
